@@ -1,0 +1,85 @@
+html {
+  background: url(../images/withered_form.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+  color: rgb(255, 255, 255);
+  font-family: "Darker Grotesque";
+  font-weight: 400;
+  font-size: 144px;
+  line-height: 195.26px;
+  position: absolute;
+  width: 1448px;
+  height: 167px;
+  left: 1285px;
+  top: 169px;
+}
+
+.navbar {
+  color: rgb(255, 255, 255);
+  font-family: "Quicksand";
+  font-size: 28px;
+  position: absolute;
+  width: 472px;
+  height: 90px;
+  left: 1600px;
+  top: 430px;
+  font-weight: normal;
+  font-style: normal;
+
+
+
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.bar {
+  padding-top: 16px;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(95, 95, 95);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(184, 179, 181);
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: rgb(176, 176, 238);
+  text-decoration: none;
+}
