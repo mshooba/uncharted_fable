@@ -1,56 +1,59 @@
-html {
-  background: url(../images/withered_form.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.wrapper{
+ 
+  margin: 3rem;
 }
 
+
+body{
+  background-image: url(/images/fathers_grave.jpg);
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
 .header {
-  color: rgb(255, 255, 255);
-  font-family: "Darker Grotesque";
-  font-weight: 400;
-  font-size: 144px;
-  line-height: 195.26px;
-  position: absolute;
-  width: 1448px;
-  height: 167px;
-  left: 1285px;
-  top: 169px;
+  
+  margin-bottom: -10px;
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  color: rgb(184, 184, 184);
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 40;
+  font-size: 100px;
+ 
+ 
 }
 
 .navbar {
-  color: rgb(255, 255, 255);
-  font-family: "Quicksand";
-  font-size: 28px;
-  position: absolute;
-  width: 472px;
-  height: 90px;
-  left: 1600px;
-  top: 430px;
-  font-weight: normal;
-  font-style: normal;
 
-
-
-  background-color: black;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  opacity: 1;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
+  justify-content: center;
+  color: rgb(184, 184, 184);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
   
+  
+
+
+
+
+
 }
 
-li {
+ul, li {
+  list-style-type: none;
   float: left;
 }
 
+
+
 li a {
   display: block;
-  color: white;
+  color: rgb(184, 184, 184);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -62,19 +65,20 @@ li a {
 
 /* unvisited link */
 a:link {
-  color: rgb(255, 255, 255);
+  color: rgb(184, 184, 184);
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(95, 95, 95);
+  color: rgb(184, 184, 184);
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: rgb(184, 179, 181);
+  transition: ease-in-out, 2s;
+  color: rgb(71, 71, 71);
   text-decoration: none;
 }
 
@@ -82,4 +86,10 @@ a:hover {
 a:active {
   color: rgb(176, 176, 238);
   text-decoration: none;
+}
+
+.footer{
+  display: flex;
+  background-color: white;
+  justify-content: flex-end;
 }
