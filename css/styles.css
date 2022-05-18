@@ -5,13 +5,13 @@
 
 
 body {
-  background-image: url(/photos/fathers_grave.jpg);
+  background-image: url(../photos/fathers_grave.jpg);
   font-family: 'Julius Sans One', sans-serif;
 }
 
 header{
   border-radius: 10px;
-  background-image: url(/images/cracked_wood.jpg);
+  background-image: url(../images/cracked_wood.jpg);
   filter: drop-shadow(1px 10px 10px #6e6e6e);
   background-size: cover;
   background-position: center;
