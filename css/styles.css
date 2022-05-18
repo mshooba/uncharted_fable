@@ -1,55 +1,67 @@
-.wrapper{
- 
-  margin: 3rem;
+.wrapper {
+
+  margin: 1rem;
 }
 
 
-body{
+body {
   background-image: url(/images/fathers_grave.jpg);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+header{
+  border-radius: 10px;
+  background-image: url(/images/cracked_wood.jpg);
+  filter: drop-shadow(1px 10px 10px #6e6e6e);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+main{
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
 }
 
 
 
-.header {
-  
+
+h1 {
+  display: flex;
+  align-self:center;
   margin-bottom: -10px;
-  justify-content: center;
   max-width: 100%;
   display: flex;
-  color: rgb(184, 184, 184);
-  font-family: 'Julius Sans One', sans-serif;
+  color: rgb(212, 212, 212);
   font-weight: 40;
   font-size: 100px;
- 
- 
 }
 
-.navbar {
+h2 {
 
-  opacity: 1;
+  justify-content: center;
+  max-width: 100%;
   display: flex;
-  justify-content: flex-end;
+  color: rgb(212, 212, 212);
+  font-weight: 40;
+  font-size: 18px;
+}
+
+nav {
   max-width: 100%;
   justify-content: center;
-  color: rgb(184, 184, 184);
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  color: rgb(71, 71, 71);
   
-  
-
-
-
-
-
+  font-size: 25px;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
   float: left;
 }
-
-
 
 li a {
   display: block;
@@ -59,36 +71,30 @@ li a {
   text-decoration: none;
 }
 
-.bar {
-  padding-top: 16px;
-}
-
-/* unvisited link */
 a:link {
-  color: rgb(184, 184, 184);
+  color: rgb(156, 156, 156);
   text-decoration: none;
 }
 
-/* visited link */
+
 a:visited {
   color: rgb(184, 184, 184);
   text-decoration: none;
 }
 
-/* mouse over link */
 a:hover {
   transition: ease-in-out, 2s;
-  color: rgb(71, 71, 71);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(1px 10px 10px #ffffff);
   text-decoration: none;
 }
 
-/* selected link */
 a:active {
   color: rgb(176, 176, 238);
   text-decoration: none;
 }
 
-.footer{
+.footer {
   display: flex;
   background-color: white;
   justify-content: flex-end;
